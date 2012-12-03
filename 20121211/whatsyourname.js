@@ -4,7 +4,7 @@
   2012/12/11
  */
 
-var yourname = prompt("あなたの名前を教えて下さい");
+var yourname = prompt("あなたのお名前はなんですか？");
 document.write("こんにちは、" + yourname +"さん");
 
 
