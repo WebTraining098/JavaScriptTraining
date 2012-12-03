@@ -12,7 +12,6 @@
 ### 演習
 ## JavaScript入門講座（四日目）
 ### 配列
-### イベント
 ### DOM
 ### jquery
 ## JavaScript入門講座（五日目）
