@@ -86,7 +86,15 @@ var Num;
 document.write("<p>メンバーは「"+akb48.length+"」名います</p>");
 while("99" != Num){
   Num = prompt("何番の詳細を見ますか？（99と打つと一覧を表示して終了します）");
-
-
-
+  if(Num == "99"){
+    for(i=0;i<akb48.length;i++){
+      document.write("名前："+akb48[i].name+"<br />");
+      document.write("年齢："+akb48[i].age+"<br />");
+      document.write("出身："+akb48[i].home+"<br /><br />");
+    };
+  }else{
+    document.write("名前："+akb48[Num].name+"<br />");
+    document.write("年齢："+akb48[Num].age+"<br />");
+    document.write("出身："+akb48[Num].home+"<br /><br />");
+  };
 }
